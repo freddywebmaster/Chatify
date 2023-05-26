@@ -6,13 +6,12 @@ import "firebase/storage";
 const provider = new firebase.auth.GoogleAuthProvider();
 
 const firebaseConfig = {
-  apiKey: "AIzaSyDoN-nSGUo_1h87nkOXSXX2vv4IBXBXey0",
-  authDomain: "chatify-49.firebaseapp.com",
-  projectId: "chatify-49",
-  storageBucket: "chatify-49.appspot.com",
-  messagingSenderId: "1034185885241",
-  appId: "1:1034185885241:web:a46af138b7a40d318defe8",
-  measurementId: "G-EHQ2YBVYY9",
+  apiKey: "AIzaSyBE0W5kLRCZN6vHS4L2Jn-fDc65m2q8zP8",
+  authDomain: "instadev-b8f56.firebaseapp.com",
+  projectId: "instadev-b8f56",
+  storageBucket: "instadev-b8f56.appspot.com",
+  messagingSenderId: "1034928475214",
+  appId: "1:1034928475214:web:028f8cf2ee10de75a3471f",
 };
 
 const firebaseApp = firebase.initializeApp(firebaseConfig);

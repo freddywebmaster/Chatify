@@ -3,7 +3,6 @@ import Button from "@material-ui/core/Button";
 import { FcGoogle } from "react-icons/fc";
 import { makeStyles } from "@material-ui/core/styles";
 import Container from "@material-ui/core/Container";
-import loginImg from "../Assets/login.png";
 import Topography from "@material-ui/core/Typography";
 import { auth, provider } from "../Firebase/Firebase";
 
@@ -48,9 +47,15 @@ function SignUp() {
   return (
     <Container component="div" maxWidth="xs" className={classes.root}>
       <div className={classes.paper}>
-        <img src={loginImg} className={classes.mainImg} alt="signup img" />
+        <img
+          src={
+            "https://upload.wikimedia.org/wikipedia/commons/7/76/Slack_Icon.png"
+          }
+          className={classes.mainImg}
+          alt="signup img"
+        />
         <Topography variant="h4" style={{ paddingTop: "15px" }}>
-          Sign In To Chatify
+          Inicia sesion en Slack
         </Topography>
         <Button
           variant="outlined"
@@ -59,7 +64,7 @@ function SignUp() {
           startIcon={<FcGoogle />}
           onClick={login}
         >
-          Sign In With Google
+          Iniciar con Google
         </Button>
       </div>
     </Container>

@@ -186,8 +186,19 @@ function Application(props) {
   const drawer = userDetails && (
     <div>
       <Toolbar className={classes.sideToolBar}>
+        <img
+          style={{
+            marginRight: "10px",
+          }}
+          width={40}
+          height={40}
+          src={
+            "https://upload.wikimedia.org/wikipedia/commons/7/76/Slack_Icon.png"
+          }
+          alt="slack-logo"
+        />
         <Typography variant="h6" className={classes.sideToolBarText}>
-          CHATIFY
+          SlackApp
         </Typography>
       </Toolbar>
       <Divider />
